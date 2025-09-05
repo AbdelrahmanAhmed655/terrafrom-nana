@@ -1,0 +1,10 @@
+# Local Terraform files
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+
+# Sensitive files
+*.pem
+*.env
