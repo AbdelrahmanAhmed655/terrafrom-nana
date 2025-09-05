@@ -1,18 +1,14 @@
-# Terraform state files
-*.tfstate
-*.tfstate.*
-*.tfstate.backup
-
-# Terraform working directory
+# Ignore local Terraform working dir
 .terraform/
 
-# Terraform variables (sensitive data)
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore sensitive var files
 *.tfvars
 *.tfvars.json
 
-# Optional: ignore lock file (but usually recommended to commit)
-# .terraform.lock.hcl
-
-# Sensitive files
+# Ignore env/keys
 *.pem
 *.env
