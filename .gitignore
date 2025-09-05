@@ -1,9 +1,17 @@
-# Local Terraform files
+# Terraform state files
 *.tfstate
+*.tfstate.*
 *.tfstate.backup
+
+# Terraform working directory
 .terraform/
-.terraform.lock.hcl
+
+# Terraform variables (sensitive data)
 *.tfvars
+*.tfvars.json
+
+# Optional: ignore lock file (but usually recommended to commit)
+# .terraform.lock.hcl
 
 # Sensitive files
 *.pem
